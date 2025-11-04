@@ -94,59 +94,59 @@ A responsive React web application that displays the most starred GitHub reposit
 ├── package.json
 └── README.md
    ```
-## 🧩 Components
+### 🧩 Components
 
-### RepoList
+#### RepoList
 - **Main container component** that manages repository data
 - **Implements infinite scroll** using Intersection Observer API
 - **Handles loading states** and error scenarios
 - **Manages pagination** and data fetching
 
-### RepoCard
+#### RepoCard
 - **Displays individual repository information**
 - **Shows repository name, description, star count, owner details**
 - **Includes links** to GitHub repository and owner profile
 - **Responsive card layout**
 
-### Header
+#### Header
 - **Application header** with title and date filter information
 - **Responsive design** that adapts to different screen sizes
 - **Displays current date range** filter
 
-### useRepositories Hook
+#### useRepositories Hook
 - **Custom React hook** for managing repository data
 - **Handles API calls, pagination, and state management**
 - **Implements error handling** and loading states
 - **Manages infinite scroll** logic
 
-## 🔧 Technical Details
+### 🔧 Technical Details
 
-### Technologies Used
+#### Technologies Used
 - **React 18** - Frontend framework
 - **CSS3** - Styling with responsive design
 - **GitHub REST API** - Data source
 - **Intersection Observer API** - Infinite scroll implementation
 
-### Key Features Implementation
+#### Key Features Implementation
 
-#### Responsive Design
+##### Responsive Design
 - **Mobile-first CSS approach**
 - **Flexbox and Grid layouts**
 - **Media queries** for different screen sizes
 - **Touch-friendly interface elements**
 
-#### Infinite Scroll
+##### Infinite Scroll
 - **Intersection Observer** for performance
 - **Automatic loading** on scroll
 - **Loading state management**
 - **Error boundary implementation**
 
-#### Error Handling
+##### Error Handling
 - **Network error detection**
 - **API rate limit handling**
 - **User-friendly error messages**
 - **Graceful fallback states**
 
-## 📝 License
+### 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

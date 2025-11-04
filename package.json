@@ -1,5 +1,5 @@
 {
-  "name": "task_react_responsive",
+  "name": "GitHub-Repository-Explorer",
   "version": "1.0.0",
   "description": "A responsive React app to display most starred GitHub repositories",
   "main": "index.js",
